@@ -1,0 +1,113 @@
+/* Estilos globales */
+body {
+    background-color: #0f172a; /* Fondo azul oscuro profundo */
+    color: #f8fafc; /* Texto blanco grisáceo, descansa la vista */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Contenedores principales */
+.caja, .contenedor {
+    background-color: #1e293b; /* Gris azulado para los paneles */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px;
+}
+
+.caja-login {
+    max-width: 400px; /* El login es más angosto */
+}
+
+/* Formularios y etiquetas */
+h1 {
+    margin-top: 0;
+    color: #38bdf8; /* Azul brillante para títulos */
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+/* Botones y enlaces */
+button, .btn {
+    background-color: #0284c7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+    background-color: #0369a1;
+}
+
+.btn-rojo {
+    background-color: #ef4444;
+}
+.btn-rojo:hover {
+    background-color: #dc2626;
+}
+
+/* Tablas profesionales */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1e293b;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #334155;
+}
+
+th {
+    background-color: #334155;
+    color: #38bdf8;
+}
+
+tr:hover {
+    background-color: #24334d;
+}
+
+.error-msg {
+    background-color: #7f1d1d;
+    color: #fca5a5;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
